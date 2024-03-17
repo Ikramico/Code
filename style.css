@@ -1,0 +1,30 @@
+body{
+    background-image: url('../Images/image.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */-
+    background-attachment: scroll;
+}
+table, td{
+    border: 1px solid rgba(255, 0, 132, 0.297);
+    border-collapse: collapse;
+}
+.h-1{
+    color: maroon;
+    text-align: center;
+}
+#try{
+    color: white;
+    background-color: #000 ;
+    text-align: right;
+}
+button{
+    background-color: antiquewhite;
+    color: brown;
+}
+a{
+    text-decoration:dashed;
+}
+.up{
+text-transform: uppercase;
+}
