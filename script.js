@@ -15,10 +15,14 @@ let shafak = new Student('5961', 'shafak', 'english');
 
 mimok.introduce();
 shafak.introduce();*/
-let arr = [10,50,78,86,94,105,87];
+let arr = [10,50,78,86,[94,[105,[87,52]]]];
 let str = ['me','you', 'him']
 
-let newArr = arr.concat(str);
+let v = arr.flat(2);
+
+console.log(v.length)
+
+/*let newArr = arr.concat(str);
 console.log(newArr);
 // console.log(Math.floor(Math.random()*100));
-console.log(arr.copyWithin(0,3,6))
+console.log(arr.copyWithin(0,3,6))*/

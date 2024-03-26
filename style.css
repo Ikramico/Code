@@ -17,3 +17,16 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+.sp{
+    text-transform: capitalize;
+}
+button{
+    padding:5px 15px 0 30px;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+}
+.tit{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 10px 10px 3px black;
+}
