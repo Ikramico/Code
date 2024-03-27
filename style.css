@@ -6,6 +6,9 @@ body{
 }
 #img-2{
     width: 1000px;
+    opacity: 1;
+    visibility: visible;
+    display: none;
 }
 .link-text{
     color: rgb(255, 255, 255);
@@ -29,4 +32,7 @@ button{
     text-align: center;
     text-decoration: underline;
     text-shadow: 10px 10px 3px black;
+}
+.clip{
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
 }
