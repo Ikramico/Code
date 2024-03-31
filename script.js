@@ -15,14 +15,26 @@ let shafak = new Student('5961', 'shafak', 'english');
 
 mimok.introduce();
 shafak.introduce();*/
-let arr = [10,50,78,86,[94,[105,[87,52]]]];
+/*let arr = [10,50,78,86,[94,[105,[87,52]]]];
 let str = ['me','you', 'him']
 
 let v = arr.flat(2);
 
-console.log(v.length)
+console.log(v.length)*/
 
 /*let newArr = arr.concat(str);
+
 console.log(newArr);
 // console.log(Math.floor(Math.random()*100));
 console.log(arr.copyWithin(0,3,6))*/
+
+
+    let vari = document.querySelector('.mn');
+    console.log(vari);
+  let pera = document.getElementsByClassName('pera');
+    function show(){
+        console.log(pera)
+        pera.innerHTML = 'I am changing';
+    }
+
+
